@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 250px;
+  height: 86vh;
+  background-color: #86adf5;
+  border: 2px solid #4b619c;
+  border-radius: 0 10px 10px 0;
+  box-sizing: border-box;
+  padding: 20px;
+  color: white;
+  overflow-y: auto;
+  margin-right: 10px;
+}

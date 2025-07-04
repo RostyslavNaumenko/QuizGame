@@ -1,0 +1,26 @@
+.container {
+  flex: 1;
+  background-color: #4169e1;
+  color: white;
+  padding: 10px;
+}
+
+.sections {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.text {
+  color: #fff;
+  font-size: 16px;
+  cursor: default;
+}
+
+.link {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
