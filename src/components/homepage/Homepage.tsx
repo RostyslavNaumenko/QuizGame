@@ -6,7 +6,7 @@ const Homepage: React.FC = () => {
   return (
     <div className={styles.content}>
       <Sidebar />
-      <div>Home</div>
+      <div className={styles.mainContent}>Home</div>
     </div>
   );
 };

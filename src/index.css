@@ -7,9 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   flex-direction: column;
   height: 100%;
+  min-height: 100vh;
   display: flex;
   flex: 1;
-  overflow: hidden;
 }
 
 code {
