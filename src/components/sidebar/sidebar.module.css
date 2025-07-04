@@ -2,7 +2,7 @@
   display: flex;
   position: sticky;
   width: 250px;
-  height: calc(100vh - 100px);
+  height: 85vh;
   background-color: #86adf5;
   border: 2px solid #4b619c;
   border-radius: 0 10px 10px 0;
@@ -10,6 +10,5 @@
   padding: 20px;
   color: white;
   overflow-y: auto;
-  margin-right: 10px;
   margin-top: auto;
 }
