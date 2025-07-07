@@ -1,14 +1,37 @@
 .container {
-  display: flex;
   position: sticky;
   width: 250px;
   height: 85vh;
-  background-color: #86adf5;
-  border: 2px solid #4b619c;
+  background-color: #1b3778;
+  border: 2px solid #263a72;
   border-radius: 0 10px 10px 0;
   box-sizing: border-box;
   padding: 20px;
-  color: white;
   overflow-y: auto;
   margin-top: auto;
+}
+
+.header {
+  font-size: 18px;
+  padding-bottom: 15px;
+  color: white;
+  cursor: default;
+}
+
+.button button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 200px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.button button:active {
+  transform: scale(0.97);
+  background-color: #2c4fb0;
 }

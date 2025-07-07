@@ -5,7 +5,14 @@ const Footer: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.sections}>
         <div className={styles.text}>@created by </div>
-        <div className={styles.link}>Rostyslav Naumenko</div>
+        <a
+          href="https://github.com/RostyslavNaumenko"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.link}
+        >
+          Rostyslav Naumenko
+        </a>
       </div>
     </div>
   );
