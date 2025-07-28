@@ -4,12 +4,14 @@ import styles from "./addPlayer.module.css";
 interface AddPlayerProps {
   isOpen: boolean;
   onClose: () => void;
+  onAdd: (name: string) => void;
   closeOnOverlayClick?: boolean;
 }
 
 export const AddPlayer: React.FC<AddPlayerProps> = ({
   isOpen,
   onClose,
+  onAdd,
   closeOnOverlayClick = true,
 }) => {
   const [name, setName] = useState("");
@@ -22,7 +24,10 @@ export const AddPlayer: React.FC<AddPlayerProps> = ({
     }
   };
 
-  const handleAdd = () => {};
+  const handleAdd = () => {
+    onAdd(name);
+    setName("");
+  };
 
   return (
     <div
